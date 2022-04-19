@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Timeline of Graphic Design</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="photos/GRaphic Corner.png"> 
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="../footer&nav/navbar.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../footer&nav/footer.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <style>
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        line-height: 1.4;
+        }
+
+        /* for button back to top*/
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #0a3166;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+
+#myBtn:hover {
+  background-color: #d8dbff;
+}
+  </style>
+</head>
+
+<body>
+  <!--------FOR NAVBAR-------->
+  <div class="menu-bar">
+    <a href="../HOMEPAGE/Homepage.html"><img id="logo" src="photos/GRaphic Corner.png"></a>
+      <ul>
+        <li><a href="../HOMEPAGE/Homepage.html">Home <i class="fas fa-caret-down"></i></a>
+    
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="../HOMEPAGE/Homepage.html">Graphic Design</a></li>
+              <li><a href="../HOMEPAGE/Homepage.html">Quotes</a></li>
+              <li><a href="../HOMEPAGE/Homepage.html">Featured Apps</a></li>
+              <li><a href="../HOMEPAGE/Homepage.html">Related Content</a></li>
+            </ul>
+          </div>
+
+        </li>
+        <li><a href="../ABOUT PAGE/Aboutpage.html">About</a></li>
+        <li><a href="#">Blog <i class="fas fa-caret-down"></i></a>
+    
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="../HISTORY/History.html">History</a></li>
+              <li><a href="#">Timeline</a></li>
+            <li>
+              <a href="../APP DESIGN/AppDesign.html">App Design <i class="fas fa-caret-right"></i></a>
+              
+              <div class="dropdown-menu-1">
+                <ul>
+                  <li><a href="https://www.adobe.com/products/photoshop.html"  target="_blank">Adobe Photoshop</a></li>
+                  <li><a href="https://www.adobe.com/sea/products/indesign.html"  target="_blank">Adobe InDesign</a></li>
+                  <li><a href="https://www.coreldraw.com/"  target="_blank">CorelDraw</a></li>
+                  <li><a href="https://www.adobe.com/sea/products/illustrator.html"  target="_blank">Adobe Illustrator</a></li>
+                  <li><a href="https://inkscape.org/">Inkscape</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="../FAQS/FAQ's.html">FAQ</a></li>
+            
+              </ul>
+            </div>
+        </li>
+    
+        <li><a href="../Contact/contact.html">Contact us!</a></li>
+        <a href="https://www.facebook.com/graphiccorner23" class="fa fa-facebook"  target="_blank"></a>
+        <a href="https://twitter.com/GraphicCorner3" class="fa fa-twitter"  target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UC3VCQGYOgcX-nH8zR3nayAw" class="fa fa-youtube"  target="_blank"></a>
+        <a href="https://www.instagram.com/grphccorner/" class="fa fa-instagram"  target="_blank"></a>
+      </ul>
+  </div>
+
+<!------For Top Button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<script>
+
+  var mybutton = document.getElementById("myBtn");
+  
+
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+  <!--------FOR timeline-------->
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title">Timeline of Graphic Design</h2>
+    <h3 class="timeline-header__subtitle">TIMELINE REPRESENTATION</h3>
+    <hr style="width:65%; margin-left: 260px;">
+    <p class="timeline-introduction">Explore the timeline of milestones in the history of web design from 1990 to the present.</p>
+
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-text="Adobe Photoshop 1.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/adobe-photoshop-1-0-preview.png"/>
+        <h2 class="timeline__content-title">1990</h2>
+        <p class="timeline__content-desc">Adobe Systems released a raster graphics editor called Photoshop 1.0. The program was only available for the Macintosh platform (Mac System 6.0.3) and required at least 2 MB of RAM and an 8 MHz processor for its operation.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="WorldWideWeb – the first browser">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/worldwideweb-the-first-browser-preview.png"/>
+        <h2 class="timeline__content-title">1990</h2>
+        <p class="timeline__content-desc">At CERN, a Swiss research center, a British physicist and internet pioneer Tim Berners-Lee created the world's first web browser, called WorldWideWeb. The browser was also a simple WYSIWYG (What You See Is What You Get) editor for editing web pages. WorldWideWeb only worked with the NeXTStep operating system. Later, the browser was renamed Nexus to avoid confusion with the World Wide Web (WWW).</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="HTTP v0.9">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/http-v0-9-preview.png"/>
+        <h2 class="timeline__content-title">1991</h2>
+        <p class="timeline__content-desc">The Hypertext Transfer Protocol (HTTP) is an Internet protocol designed to exchange hypertext documents (images, websites, etc.) between the server and the web browser. The first protocol design, later called HTTP v0.9, was created by Tim Berners-Lee as part of the WWW service specification. The HTTP v0.9 version was extremely simple, using only the GET method with one parameter, i.e. the name of the requested document.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="PHP 1.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/rasmus-lerdorf-php-1-0-preview.png"/>
+        <h2 class="timeline__content-title">1995</h2>
+        <p class="timeline__content-desc">The Danish-Canadian programmer Rasmus Lerdorf designed the first version of the popular PHP 1.0 scripting language. The term PHP originally stood for Personal Home Page. In 1997, Israeli developers Andi Gutmans and Zeev Suraski rewrote the parser to create the basis for PHP 3. They also changed the name of the language to a recursive acronym for PHP: Hypertext Preprocessor.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Internet Explorer 1.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/internet-explorer-1-0-preview.png"/>
+        <h2 class="timeline__content-title">1995</h2>
+        <p class="timeline__content-desc">Microsoft released, as a part of its bonus package, the Microsoft Plus! Internet Jumpstart Kit (later also known as the Internet Connection Wizard) for Windows 95, which included Internet Explorer 1.0. In the original version of Windows 95, a web browser was not available, as Microsoft underestimated the potential of the rapidly developing Internet. The source code for Internet Explorer 1.0 was based on the older Spyglass Mosaic browser for which Microsoft purchased license rights. Internet Explorer 1.0 occupied only 1 MB of disk space and its features were considerably limited compared to other browsers at the time.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="HTML 2.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/html-2-0-preview.png"/>
+        <h2 class="timeline__content-title">1995</h2>
+        <p class="timeline__content-desc">The IETF organization published the RFC 1866 specification for HTML 2.0. HTML 2.0 supported forms, tables, graphics, and a number of new tags, such as <!DOCTYPE>, < head>, < body>, < form>, < img>, < input>, < select>, < strong> and others.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="JavaScript 1.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/javascript-1-0-1995-preview.png"/>
+        <h2 class="timeline__content-title">1995</h2>
+        <p class="timeline__content-desc">Brendan Eich of Netscape designed the first version of an object-oriented JavaScript that became widely used to create interactive websites. JavaScript later become the basis for other programming languages, such as ActionScript used in Macromedia Flash. In 1998, JavaScript was standardized by ISO.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="CSS 1">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/css-1-recommendation-1996-preview.png"/>
+        <h2 class="timeline__content-title">1996</h2>
+        <p class="timeline__content-desc">W3C issued official recommendations for language specification, Cascading Style Sheets, level 1 (CSS1). Cascading styles describe how to display elements in documents written in HTML, XHTML, and XML markup languages. The first proposal of "Cascading HTML Style Sheets" was published in October 1994 by a Norwegian programmer Håkon Wium Lie, who was working at CERN under Tim Berners-Lee at the time. In the following months, Bert Bos, a Dutch developer, significantly contributed to CSS1 specification development. In 1997, Håkon Wium Lie and Bert Bos published one of the first cascading style books entitled Cascading style sheets: designing for the Web.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="HTML 3.2">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/html-3-2-specification-preview.png"/>
+        <h2 class="timeline__content-title">1997</h2>
+        <p class="timeline__content-desc">W3C issued a final recommendation specifying the HTML 3.2 markup language. The original HTML 3.0 version had never become a standard, as it was too complicated, and the leading Microsoft and Netscape developers had a problem implementing it.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Mozilla">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/mozilla-org-1998-preview.png"/>
+        <h2 class="timeline__content-title">1998</h2>
+        <p class="timeline__content-desc">Netscape Communications Corporation released the source code of the Netscape Communicator 5.0 web browser, which became the beginning of a community-based open source project called Mozilla. In 2003, the Mozilla Foundation, a non-profit organization, was founded on the basis of the original project.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Adobe ImageReady 1.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/adobe-imageready-1-0-preview.png"/>
+        <h2 class="timeline__content-title">1998</h2>
+        <p class="timeline__content-desc">Adobe Systems released Adobe ImageReady 1.0 bitmap graphics editor. The program was designed to work with web graphics and to create rollover effects or short animations in the GIF format. Since version 2.0, ImageReady has been part of Photoshop.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Google">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/google-november-1998-preview.png"/>
+        <h2 class="timeline__content-title">1998</h2>
+        <p class="timeline__content-desc">A pair of Ph.D. students from Stanford University, Larry Page and Sergey Brin, created the Google search engine. Google originally started as a research project whose aim was to find relevant search results using a mathematical algorithm. The algorithm, later called PageRank, analyzed relationships between individual webpages based on their cross-references, thus assessing their importance. The name Google is a deliberate misspelling of the word googol, which refers to a very high number – 1 followed by a hundred zeros (10100).</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Adobe Photoshop 5.5">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/old-software/graphic-software/adobe-photoshop/adobe-photoshop-5-5-preview.png"/>
+        <h2 class="timeline__content-title">1999</h2>
+        <p class="timeline__content-desc">Adobe Systems launched Adobe Photoshop 5.5. The new version of Photoshop included the Adobe ImageReady 2.0 program designed to work with web graphics. Another new feature of Adobe Photoshop 5.5 was Save for Web, which allowed designers to compress images for the web.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="DeviantArt">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/preview/deviant-art-2000-preview.png"/>
+        <h2 class="timeline__content-title">2000</h2>
+        <p class="timeline__content-desc">Scott Jarkoff, Matthew Stephens and Angelo Sotira founded an art community portal called DeviantArt. In its beginnings, the portal brought together enthusiasts who modified the design of their computer programs and applications. At present, DeviantArt is the largest social networking site for artists and art enthusiasts.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="WordPress 0.7">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/wordpress-0-7-preview.png"/>
+        <h2 class="timeline__content-title">2003</h2>
+        <p class="timeline__content-desc">Web developers Matt Mullenweg and Mike Little created the first version of the open source content management system called WordPress 0.7. The publishing system is based on PHP and MySQL technology and is developed under the GNU GPL free software license. The predecessor of WordPress was the b2/cafelog blogging platform. WordPress is currently the most popular content management system, and more than 30% of websites are using it worldwide.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Safari 1.0">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/safari-1-0-preview.png"/>
+        <h2 class="timeline__content-title">2003</h2>
+        <p class="timeline__content-desc">Apple introduced its own web browser, Safari 1.0. The browser uses the WebKit renderer to display website content. Safari 1.0 was initially available for download as a standalone program, but, in October 2003, it became the default Mac OS X 10.3 operating system browser.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="jQuery">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/jquery-website-2006-preview.png"/>
+        <h2 class="timeline__content-title">2006</h2>
+        <p class="timeline__content-desc">The software engineer John Resig announced the creation of the jQuery JavaScript library at BarCamp NYC. The jQuery library emphasizes interaction between JavaScript and HTML. jQuery makes it easy for web developers to create recurring events, animations, or manipulate cascading style sheets.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Google Web Fonts">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/google-fonts-website-2010-preview.png"/>
+        <h2 class="timeline__content-title">2010</h2>
+        <p class="timeline__content-desc">Google launched an open source web font library, Google Web Fonts (now called Google Fonts). Fonts are hosted on Google's servers, and the library now has nearly 900 font families that users can use on their websites for free.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Bootstrap 1">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/bootstrap-1-preview.png"/>
+        <h2 class="timeline__content-title">2011</h2>
+        <p class="timeline__content-desc">Web developers Mark Otto and Jacob Thorton of Twitter began creating the CSS framework Bootstrap in mid-2011. The framework was originally developed to help maintain the HTML/CSS and JavaScript code consistency in Twitter applications. In August 2011, Bootstrap 1 was released as an open source tool and is currently one of the most popular CSS frameworks among web designers. In January 2012, Bootstrap 2 was released, supporting a responsive web layout.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Bootstrap 3">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/bootstrap-3-preview.png"/>
+        <h2 class="timeline__content-title">2013</h2>
+        <p class="timeline__content-desc">A team of developers from GitHub published the CSS framework Boostrap 3. The new Bootstrap version consistently applied a responsive web layout and mobile-first access. The layout of templates and components was redesigned in flat design style.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Material Design">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/google-design-2014-preview.png"/>
+        <h2 class="timeline__content-title">2014</h2>
+        <p class="timeline__content-desc">Google introduced a new graphic style called Material Design at the Google I/O conference. Since 2015, Google has redesigned most of its applications and services using the consistent visual style of Material Design. According to Google's definition, Material Design is a "visual language that synthesizes the classic principles of good design with the innovation and the possibility of technology and science.”</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="HTML5">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.devsaran.com/sites/default/files/styles/large/public/blogimages/html5.jpg?itok=5dTd8gY7"/>
+        <h2 class="timeline__content-title">2014</h2>
+        <p class="timeline__content-desc">W3C adopted the final recommendation for the HTML5 markup language. The HTML5 version has brought an improved browser multimedia playback support, new semantic tags that better define page structure, offline application support, and the < canvas> tag that can interpret vector graphics with an option to insert images.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Microsoft Edge">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/microsoft-edge-website-2016-preview.png"/>
+        <h2 class="timeline__content-title">2015</h2>
+        <p class="timeline__content-desc">Microsoft released the first version of the Microsoft Edge web browser for Windows 10. Microsoft Edge was subsequently included as a default browser on Windows 10 Mobile and Xbox One operating systems, definitively replacing the older Internet Explorer 11 and Internet Explorer Mobile browsers. On December 6, 2018, Microsoft announced that Edge will no longer use its own EdgeHTML rendering engine and will be based on Chromium, Google's open source rendering engine.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Adobe announced termination of Flash">
+      <div class="timeline__content"><img class="timeline__img" src="https://www.webdesignmuseum.org/uploaded/web-design-history/adobe-announced-termination-of-flash-2017-preview.png"/>
+        <h2 class="timeline__content-title">2017</h2>
+        <p class="timeline__content-desc">Adobe Systems announced that it would cease support for Flash in 2020 and would no longer issue additional security updates for Adobe Flash Player. In the field of web multimedia and interactivity, Flash became gradually replaced by HTML5, WebGL, or WebAssembly technology.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--------FOR FOOTER-------->
+
+<div class="footer">
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>The world is changing all around us, as Graphic Design changes. 
+            An exclusive website that will give you the information that you 
+            need to learn about how Graphic Design starts and how it changes 
+            throughout the years. Our team will give you an insight in how 
+            you will use the different software that you will need in Graphic 
+            Design.  </p>
+        </div>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>Graphiccorner@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">App Designs</div>
+        <div><a href="https://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a></div>
+        <div><a href="https://www.adobe.com/sea/products/indesign.html" target="_blank">Adobe InDesign</a></div>
+        <div><a href="https://www.coreldraw.com/" target="_blank">CorelDraw</a></div>
+        <div><a href="https://www.adobe.com/sea/products/illustrator.html" target="_blank">Adobe Illustrator</a></div>
+        <div><a href="https://inkscape.org/" target="_blank">Inkscape</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Email us</div>
+        <form action="https://formspree.io/f/xzboaepk" method="post" enctype="multipart/form-data" target="_blank">
+        <input type="text" placeholder="Enter a message..." name="message">
+        <input type="submit" value="Send">
+        <div class="media-icons">
+          <a href="https://www.facebook.com/graphiccorner23" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/grphccorner/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/GraphicCorner3" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UC3VCQGYOgcX-nH8zR3nayAw" target="_blank"><i class="fab fa-youtube"></i></a>
+
+        </div>
+          </form>
+      </div>
+    </div>    
+
+    <div class="bottom">
+      <p>Copyright © 2022 <a href="#">Graphic Corner</a> All rights reserved</p>
+    </div>
+  </footer>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+
+  <!--------FOR LIVE CHAT WIDGET-------->
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-260546b2-0cb1-4570-93f1-f5693616711b"></div>
+</body>
+</html>

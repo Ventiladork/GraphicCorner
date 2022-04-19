@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>History of Graphic Design</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="photos/GRaphic Corner.png"> 
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="../footer&nav/navbar.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../footer&nav/footer.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <style>
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        line-height: 1.4;
+        }
+
+        /* for button back to top*/
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #0a3166;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+
+#myBtn:hover {
+  background-color: #d8dbff;
+}
+  </style>
+</head>
+
+<body>
+  <!--------FOR NAVBAR-------->
+  <div class="menu-bar">
+    <a href="../HOMEPAGE/Homepage.html"><img id="logo" src="photos/GRaphic Corner.png"></a>
+      <ul>
+        <li><a href="../HOMEPAGE/Homepage.html">Home <i class="fas fa-caret-down"></i></a>
+    
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="../HOMEPAGE/Homepage.html">Graphic Design</a></li>
+              <li><a href="../HOMEPAGE/Homepage.html">Quotes</a></li>
+              <li><a href="../HOMEPAGE/Homepage.html">Featured Apps</a></li>
+              <li><a href="../HOMEPAGE/Homepage.html">Related Content</a></li>
+            </ul>
+          </div>
+
+        </li>
+        <li><a href="../ABOUT PAGE/Aboutpage.html">About</a></li>
+        <li><a href="#">Blog <i class="fas fa-caret-down"></i></a>
+    
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="../HISTORY/History.html">History</a></li>
+              <li><a href="../HISTORY/Timeline.html">Timeline</a></li>
+            <li>
+              <a href="../APP DESIGN/AppDesign.html">App Design <i class="fas fa-caret-right"></i></a>
+              
+              <div class="dropdown-menu-1">
+                <ul>
+                  <li><a href="https://www.adobe.com/products/photoshop.html"  target="_blank">Adobe Photoshop</a></li>
+                  <li><a href="https://www.adobe.com/sea/products/indesign.html"  target="_blank">Adobe InDesign</a></li>
+                  <li><a href="https://www.coreldraw.com/"  target="_blank">CorelDraw</a></li>
+                  <li><a href="https://www.adobe.com/sea/products/illustrator.html"  target="_blank">Adobe Illustrator</a></li>
+                  <li><a href="https://inkscape.org/">Inkscape</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="../FAQS/FAQ's.html">FAQ</a></li>
+            
+              </ul>
+            </div>
+        </li>
+        
+        <li><a href="../Contact/contact.html">Contact us!</a></li>
+        <a href="https://www.facebook.com/graphiccorner23" class="fa fa-facebook"  target="_blank"></a>
+        <a href="https://twitter.com/GraphicCorner3" class="fa fa-twitter"  target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UC3VCQGYOgcX-nH8zR3nayAw" class="fa fa-youtube"  target="_blank"></a>
+        <a href="https://www.instagram.com/grphccorner/" class="fa fa-instagram"  target="_blank"></a>
+      </ul>
+  </div>
+
+<!------For Top Button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<script>
+
+  var mybutton = document.getElementById("myBtn");
+  
+
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+  <!--------FOR timeline-------->
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title">History of Graphic Design</h2>
+    <h3 class="timeline-header__subtitle">HISTORY REPRESENTATION</h3>
+    <hr style="width:65%; margin-left: 260px;">
+    <p class="timeline-introduction">Graphic design as we know it today really started developing in the modern era, roughly the late 1800s
+      up until the end of World War II. While the 19th century was more about technological advancements and
+      new capabilities, the modern era was about learning how to exploit these advancements for more artistic
+      aims. With printing now a common tech and competition fueling innovation, artists and designers were
+      pushed to explore new styles and techniques, which quickly trickled into advertising and branding.</p>
+
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-text="The Wiener Werkstätte (first graphic”design agency)">
+      <div class="timeline__content"><img class="timeline__img" src="photos/wiener.png"/>
+        <h2 class="timeline__content-title">1903</h2>
+        <p class="timeline__content-desc">With more and more companies recognizing the benefit of graphic design, it was just a matter of time
+          before the first graphic design agency emerged. That honor belongs to Austria’s Wiener Werkstätte, an
+          organization who made contributions to design style and business alike.
+          Meaning simply “Vienna workshop,” the Wiener Werkstätte was the first such organization of visual
+          artists, including painters, architects, and early graphic designers. Organizationally, it set the precedent
+          for all other collaborative agencies to follow.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Staatliches Bauhaus founded">
+      <div class="timeline__content"><img class="timeline__img" src="photos/Staatliches.jpg"/>
+        <h2 class="timeline__content-title">1919</h2>
+        <p class="timeline__content-desc">Furthering what the Wiener Werkstätte started, the Staatliches Bauhaus, or just simply “Bauhaus,” first
+          opened its doors in Weimar, Germany in 1919. Theirs was an ambitious goal: to create a
+          Gesamtkunstwerk, an artistic ideal that encompasses or synthesizes existing art forms into one perfect
+          work. The interesting thing is they actually succeeded: Bauhaus was one of the central driving forces
+          behind the popularization of the modernist style.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="The term “graphic design” appears for the first time">
+      <div class="timeline__content"><img class="timeline__img" src="photos/graphicdesign.jpg"/>
+        <h2 class="timeline__content-title">1922</h2>
+        <p class="timeline__content-desc">In his article “New Kind of Printing Calls for New Design” (printed in the Boston Evening Transcript, August
+          29, 1922), book designer William Addison Dwiggins first used the term “graphic design” to describe exactly
+          what his role was in structuring and managing the visuals in book design. From day one, designers were
+          struggling to explain to non-designers what, exactly, they did.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Paul Rand publishes Thoughts on Design">
+      <div class="timeline__content"><img class="timeline__img" src="photos/Paul Rand.jpg"/>
+        <h2 class="timeline__content-title">1947</h2>
+        <p class="timeline__content-desc">With one foot in modernism and the other in post-modernism, legendary designer Paul Rand helped lead
+          graphic design into its current form. He posted his theories and ideologies in the seminal work Thoughts
+          on Design, which largely shaped the future of the entire graphic design industry.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="A glimpse into the digital era">
+      <div class="timeline__content"><img class="timeline__img" src="photos/mtv.webp"/>
+        <h2 class="timeline__content-title">1915</h2>
+        <p class="timeline__content-desc">From the 1950s onward, the world began its slow approach to the digital era we’re currently enjoying.
+          The mass-adoption of home computers is a technological advancement comparable to the invention of
+          the printing press, ushering in a new age for mass communication and granting access to esoteric art styles
+          and digital software for new methods of creating art. <br>
+          Adobe Photoshop—first released in 1990—even on its own changed the face of graphic design. Photo manipulation 
+          created a whole new subcategory of graphic design, blending together elements of photography, illustration,
+          and CGI (it would have made the Gesamtkunstwerk artists proud).</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--------FOR FOOTER-------->
+<!---------For Footer-->
+<div class="footer">
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>The world is changing all around us, as Graphic Design changes. 
+            An exclusive website that will give you the information that you 
+            need to learn about how Graphic Design starts and how it changes 
+            throughout the years. Our team will give you an insight in how 
+            you will use the different software that you will need in Graphic 
+            Design.  </p>
+        </div>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>Graphiccorner@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">App Designs</div>
+        <div><a href="https://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a></div>
+        <div><a href="https://www.adobe.com/sea/products/indesign.html" target="_blank">Adobe InDesign</a></div>
+        <div><a href="https://www.coreldraw.com/" target="_blank">CorelDraw</a></div>
+        <div><a href="https://www.adobe.com/sea/products/illustrator.html" target="_blank">Adobe Illustrator</a></div>
+        <div><a href="https://inkscape.org/" target="_blank">Inkscape</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Email us</div>
+        <form action="https://formspree.io/f/xzboaepk" method="post" enctype="multipart/form-data" target="_blank">
+        <input type="text" placeholder="Enter a message..." name="message">
+        <input type="submit" value="Send">
+        <div class="media-icons">
+          <a href="https://www.facebook.com/graphiccorner23" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/grphccorner/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/GraphicCorner3" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UC3VCQGYOgcX-nH8zR3nayAw" target="_blank"><i class="fab fa-youtube"></i></a>
+
+        </div>
+          </form>
+      </div>
+    </div>    
+
+    <div class="bottom">
+      <p>Copyright © 2022 <a href="#">Graphic Corner</a> All rights reserved</p>
+    </div>
+  </footer>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+
+  <!--------FOR LIVE CHAT WIDGET-------->
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-260546b2-0cb1-4570-93f1-f5693616711b"></div>
+</body>
+</html>

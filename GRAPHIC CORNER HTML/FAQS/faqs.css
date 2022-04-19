@@ -1,0 +1,252 @@
+      /* Basic styling */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
+        
+      }
+   
+      .text   {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      Color:white;
+      text-align: center;
+  }
+  .text h1  {
+      font-family: 'Raleway', sans-serif;
+      font-size: 60px;
+  }
+  
+  .text h3  {
+      font-family: 'Quicksand', sans-serif;
+  }
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  
+  }
+  
+  .searchTerm {
+    width: 400px;
+    border: 3px solid #4345a797;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 20px 0 0 5px;
+    outline: none;
+    color: #4345a797;
+  
+  }
+  
+  .searchTerm:focus{
+    color: #4345a797;
+    background: #d8dbff;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 49px;
+    border: 1px solid #4345a797;
+    background: #3a3c88;
+    text-align: center;
+    color: #d8dbff;
+    border-radius: 0 5px 20px 0;
+    cursor: pointer;
+    font-size: 19px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contact{
+        margin-top:100px;
+        position: absolute;
+      top: 63%;
+      left: 34%;
+  
+     
+  }
+  .contact .fa {
+  
+    padding: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  
+  }
+  
+  .contact .fa:hover {
+    
+      color: #4344a7;
+  }
+  
+  .contact .fa {
+    background: rgba(195, 184, 255, 0.459);
+    color: white;
+  
+     
+  }
+  .contact a:hover {
+  
+    color: #4344a7;
+  
+     
+  }
+  
+  
+  
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .accordiong {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: #fff;
+    color: #4d5974;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 60rem;
+  }
+  
+  .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #4344a7;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #4344a7;
+  }
+  
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #4344a7;
+    border: 1px solid #4344a7;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  .accordion-title {
+    font-weight:bold;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #d8dbff;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 2em 0;
+    line-height: 1.5rem;
+  }
+  
+  /* for button back to top*/
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #0a3166;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+  
+  }
+  
+  #myBtn:hover {
+    background-color: #d8dbff;
+  }
